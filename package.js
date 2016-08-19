@@ -1,8 +1,8 @@
 Package.describe({
   summary: 'Style with attitude. Sass and SCSS support for Meteor.js.',
   version: "3.8.1",
-  git: "https://github.com/fourseven/meteor-scss.git",
-  name: "fourseven:scss"
+  git: "https://github.com/csats/meteor-scss.git",
+  name: "csats:scss"
 });
 
 Package.registerBuildPlugin({
@@ -25,7 +25,7 @@ Package.on_test(function (api) {
   api.use(['test-helpers',
            'tinytest']);
 
-  api.use(['fourseven:scss']);
+  api.use(['csats:scss']);
 
   // Tests for .scss
   api.addFiles([
